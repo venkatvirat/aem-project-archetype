@@ -222,12 +222,12 @@
         <repository>
             <id>${releaseRepository-Id}</id>
             <name>${releaseRepository-Name}</name>
-            <url>${releaseRepository-URL}</url>
+            <url>${http://13.235.73.209:8081/repository/maven-releases/}</url>
         </repository>
         <snapshotRepository>
             <id>${snapshotRepository-Id}</id>
             <name>${snapshotRepository-Name}</name>
-            <url>${snapshotRepository-URL}</url>
+            <url>${http://13.235.73.209:8081/repository/maven-snapshots/}</url>
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
